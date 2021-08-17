@@ -1,0 +1,165 @@
+/*HTML */
+body{
+    background-color: rgb(231, 232, 234);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0,0,0)
+  }
+  
+th{
+    background-color: rgb(242, 22, 58);
+    color: rgb(242, 242, 242);
+    
+}
+  
+td{
+    text-align: center;
+    padding: 8px;
+}
+
+table.atualizacao{
+    border: none;
+}
+
+th#setor.atualizacao-th{
+    font-size: 20px;
+    padding: 15px 8px;
+}
+
+
+mark#att{
+    background-color: rgb(231, 232, 234);
+    color: rgb(242, 22, 58);
+}
+
+/*Banner*/
+
+#elfa-painel{
+    width: 100%;
+    height: 200px;
+}
+
+/*Menu de navegaçao*/
+.menu-principal{
+    background-color: rgb(242, 22, 58);
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.menu-principal li{
+    display:inline;
+}
+.menu-principal a{
+    display:inline-block;
+    padding:15px;
+    width: 250px;
+}
+
+li a:hover, .sub-menu:hover .sub-menubtn  {
+    background-color: rgb(231, 232, 234);
+    color: rgb(242, 22, 58);
+  }
+
+li.sub-menu
+{
+    display: inline-block;
+}
+
+.sub-menu-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(242, 22, 58);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.sub-menu-content a{
+    color:rgb(242, 242, 242);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.sub-menu:hover .sub-menu-content{
+    display: block;
+}
+
+
+a:visited{
+    color:rgb(242, 242, 242);
+}
+  
+a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: rgb(231, 232, 234);
+}
+
+
+/* Scroll */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(242, 22, 58);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(231, 232, 234);
+    border-radius: 5px;
+}
+
+
+/*Tabelas*/
+
+tr:nth-child(even){
+    background-color: rgb(242, 242, 242)
+}
+
+td{
+    font-weight: bold;
+}
+
+#setor{
+    text-align: left;
+    padding: 8px;
+
+}
+
+#nome{
+    text-align: left;
+    padding: 8px;
+}
+
+/*Portal de Chmados*/
+
+mark{
+    background-color: rgb(242, 22, 58);
+    padding: 5px;
+}
+
+a.portal-chamados{
+    color: rgb(242, 242, 242);
+    text-transform: lowercase;
+}
+
+div#div-portal{
+    text-align: center;
+}
+
+#portal-chamados-img{
+    width: 80%;
+    height: 80%;
+    border: 2px solid rgb(0,0,0);
+}
